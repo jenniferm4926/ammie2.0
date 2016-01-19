@@ -17,3 +17,20 @@ figcaption {
     text-shadow: 1px 1px 5px purple;
     text-align: center;
 }
+
+h3 {
+background-color:red;
+    border-radius: 75%;
+    animation-name:circle;
+    animation-delay: 2s;
+  animation-duration:10s;
+    animation-timing-function: ease-in-out;
+    display:block
+}
+@keyframes circle {
+    0% {background-color:blue;}
+    25% {background-color:gray;}
+    50% {background-color:orange;}
+    75% {background-color:purple;}
+    100% {background-color:green;}
+}
