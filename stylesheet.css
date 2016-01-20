@@ -53,14 +53,12 @@ h3 {
     border-radius: 75%;
     animation-name: circle;
     animation-duration: 5s;
-    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    transform: rotateZ(360deg);
 }
 
 @keyframes circle {
-    from {
-        background-color: lightgray;
-    }
-    to {
-        background-color: purple;
-    }
+    0%{ transform:rotateZ(0deg);}
+    100%{transform:rotateZ(360deg)}
 }
