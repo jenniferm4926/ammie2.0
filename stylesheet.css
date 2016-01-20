@@ -1,3 +1,10 @@
+html {
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    background-image: url("spiralgalbackground.png");
+}
+
 h1 {
     font-family: Shadows Into Light Two;
     text-align: center;
@@ -7,13 +14,22 @@ h1 {
     animation-iteration-count: infinite;
 }
 
-@keyframes title{
-    0% {text-shadow: 5px 5px 20px RebeccaPurple;}
-    25% {text-shadow: 5px 5px 10px MediumPurple;}
-    50% {text-shadow: 5px 5px 5px Gray;}
-    75% {text-shadow: 5px 5px 10px MediumPurple;}
-    100% {text-shadow: 5px 5px 20px RebeccaPurple;}
-    
+@keyframes title {
+    0% {
+        text-shadow: 5px 5px 20px RebeccaPurple;
+    }
+    25% {
+        text-shadow: 5px 5px 10px MediumPurple;
+    }
+    50% {
+        text-shadow: 5px 5px 5px Gray;
+    }
+    75% {
+        text-shadow: 5px 5px 10px MediumPurple;
+    }
+    100% {
+        text-shadow: 5px 5px 20px RebeccaPurple;
+    }
 }
 
 img {
@@ -23,25 +39,29 @@ img {
 }
 
 figcaption {
-    font-family:Walter Turncoat;
+    font-family: Walter Turncoat;
     color: white;
     text-shadow: 1px 1px 5px purple;
     text-align: center;
 }
 
 h3 {
-background-color:red;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+background-color:; black
+    background-image:url("starss.png");
     border-radius: 75%;
-    animation-name:circle;
-    animation-delay: 2s;
-  animation-duration:10s;
+    animation-name: circle;
+    animation-duration: 5s;
     animation-timing-function: ease-in-out;
-    display:block
 }
+
 @keyframes circle {
-    0% {background-color:blue;}
-    25% {background-color:gray;}
-    50% {background-color:orange;}
-    75% {background-color:purple;}
-    100% {background-color:green;}
+    from {
+        background-color: lightgray;
+    }
+    to {
+        background-color: purple;
+    }
 }
