@@ -49,7 +49,7 @@ h3 {
     width: 200px;
     height: 200px;
     text-align: center;
-background-color:; black
+    background-color:black;
     background-image:url("starss.png");
     border-radius: 75%;
     animation-name: circle;
