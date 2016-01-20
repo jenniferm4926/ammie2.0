@@ -46,6 +46,8 @@ figcaption {
 }
 
 h3 {
+    color: white;
+
     width: 200px;
     height: 200px;
     text-align: center;
@@ -54,7 +56,6 @@ h3 {
     border-radius: 75%;
     animation-name: circle;
     animation-duration: 5s;
-    animation-timing-function: ease-in-out;
 }
 
 @keyframes circle {
@@ -64,4 +65,13 @@ h3 {
     to {
         background-color: purple;
     }
+}
+
+
+#sub {
+    display: inline;
+    color:white;
+    bottom: 0px;
+    right: 0px;
+    transition: width 2px ;
 }
