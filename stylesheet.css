@@ -69,16 +69,9 @@ h3 {
     0%{ transform:rotateZ(0deg);}
     100%{transform:rotateZ(360deg)}
 }
-figure{
+img{
     transition: width 3s;
 }
-figure:hover{
+img:hover{
 box-shadow: 15px 15px 15px  #445266;
-}
-#sub{
-    display: inline;
-    color:white;
-    bottom: 0px;
-    right: 0px;
-    transition: width 2px ;
 }
