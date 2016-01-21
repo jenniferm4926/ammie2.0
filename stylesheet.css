@@ -95,4 +95,12 @@ box-shadow: 15px 15px 15px  #445266;
     opacity:0.75;
     height:600px;
     width:600px;
+    animation-play-state:paused;
+}
+p {
+    opacity:0;
+}
+p:hover {
+opacity:1
+
 }
