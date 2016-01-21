@@ -49,14 +49,9 @@ figcaption {
 h3 {
     display: inline-block;
     color: white;
-<<<<<<< HEAD
-
-    width: 200px;
-    height: 200px;
-=======
     width: 300px;
     height: 300px;
->>>>>>> 2567a4d5d1f932627a3475e52fc34df017029ce9
+
     text-align: center;
     background-image:url("spiralgalbackground.png");
     background-size: contain;
@@ -78,8 +73,7 @@ figure{
     transition: width 3s;
 }
 figure:hover{
-    width:200px;
-    height:100px;
+box-shadow: 15px 15px 15px  #445266;
 }
 #sub{
     display: inline;
