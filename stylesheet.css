@@ -83,3 +83,11 @@ img{
 img:hover{
 box-shadow: 15px 15px 15px  #445266;
 }
+#overlay { opacity:1;
+  
+}
+#overlay:hover {
+    opacity:0.75;
+    height:600px;
+    width:600px;
+}
