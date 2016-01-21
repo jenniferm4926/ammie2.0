@@ -47,8 +47,7 @@ figcaption {
 
 h3 {
     color: white;
-    position: relative;
-    top: 10px;
+
     width: 200px;
     height: 200px;
     text-align: center;
@@ -56,6 +55,7 @@ h3 {
     border-radius: 75%;
     animation-name: circle;
     animation-duration: 5s;
+
     animation-iteration-count: infinite;
     animation-timing-function:linear;
     transform: rotateZ(360deg);
@@ -64,4 +64,18 @@ h3 {
 @keyframes circle {
     0%{ transform:rotateZ(0deg);}
     100%{transform:rotateZ(360deg)}
+}
+figure{
+    transition: width 3s;
+}
+figure:hover{
+    width:200px;
+    height:100px;
+}
+#sub{
+    display: inline;
+    color:white;
+    bottom: 0px;
+    right: 0px;
+    transition: width 2px ;
 }
