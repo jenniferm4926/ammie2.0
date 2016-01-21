@@ -40,9 +40,10 @@ img {
 }
 
 figcaption {
+    font-size: 25px;
     font-family: Walter Turncoat;
-    color: white;
-    text-shadow: 1px 1px 5px purple;
+    color:  white;
+    text-shadow: 1px 1px 10px BlueVIolet;
     text-align: center;
 }
 
@@ -51,16 +52,8 @@ figcaption {
     margin-left: 200px;
     margin-right: 100px;
     display: inline-block;
-<<<<<<< HEAD
     width: 300px;
     height: 300px;
-=======
-    color: white;
-    width: 300px;
-    height: 300px;
-
-    text-align: center;
->>>>>>> ca2ae77ce06fce0793a179de71aa8f86014a136c
     background-image:url("spiralgalbackground.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -75,7 +68,6 @@ figcaption {
 h3{
     text-align: center;
     color: white;
-
 }
 
 
